@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Alice|Quicksand&display=swap');
+
+// fonts
+$primary-font: 'Quicksand', sans-serif;
+$secondary-font: 'Alice', serif;
+
+#typography {
+
+    h1 {
+
+        font-family: $secondary-font;
+
+    }
+
+    p {
+
+        font-family: $primary-font;
+
+    }
+
+}
