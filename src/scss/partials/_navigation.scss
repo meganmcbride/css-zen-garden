@@ -2,31 +2,51 @@
     display: block;
     font-family: $secondary-font;
     padding: 0.75rem;
-    text-align: center;
     text-decoration: none;
 }
 
-.cd-primary-nav a:nth-child(1) {
-    background-color: $color-3;
-    color: $color-2;
+.html {
+    color:$color-2;
 }
 
-.cd-primary-nav a:nth-child(2) {
-    background-color: $color-2;
+.css {
     color: $color-4;
 }
 
-.cd-primary-nav a:nth-child(3) {
-    background-color: $color-1;
+.cc {
     color: $color-5;
 }
 
-.cd-primary-nav a:nth-child(4) {
-    background-color: $color-4;
+.a11y {
     color: $color-2;
 }
 
-.cd-primary-nav a:nth-child(5) {
-    background-color: $color-5;
+.gh {
     color: $color-1;
 }
+
+.otherLinks a {
+    background-color: $color-1;
+    color: $color-4;
+}
+
+.cd-primary-nav li:nth-child(1) {
+    background-color: $color-3; 
+}
+
+.cd-primary-nav li:nth-child(2) {
+    background-color: $color-2;
+}
+
+.cd-primary-nav li:nth-child(3) {
+    background-color: $color-1;
+}
+
+.cd-primary-nav li:nth-child(4) {
+    background-color: $color-4;
+}
+
+.cd-primary-nav li:nth-child(5) {
+    background-color: $color-5;
+}
+
